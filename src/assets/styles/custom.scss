@@ -1,0 +1,23 @@
+.btn-warning {
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
+
+
+.intrinsic {
+  padding-top: 50%;
+  position: relative;
+  height: 50;
+  width: 50%;
+  background: #fff;
+
+  .intrinsic-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 110%;
+    height: 110%;
+  }
+}
